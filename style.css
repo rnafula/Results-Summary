@@ -1,0 +1,132 @@
+
+*{
+    box-sizing: border-box;
+    font-family:Hanken Grotesk;
+}
+body{
+background-color:hsl(0, 0%, 98%);
+font-size:16px;
+}
+.parent{
+display:flex;
+width:60%;
+margin:100px auto;
+}
+.child-white
+{
+display:flex;
+flex-direction:column;
+width:220px;
+margin:25px auto;
+
+}
+.blue{
+display:flex;
+flex-direction:column;
+/* align-items: center;
+align-content: center; */
+padding:30px;
+width:300px;
+height:400px;
+background-image:linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+border-radius:30px;
+gap:20px;
+}
+h2, p{
+    color:hsl(0,0%,100%);
+    text-align: center;
+}
+.gradient
+{
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background-image:linear-gradient( hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+width: 40%;
+height: 42%;
+margin:5px auto ;
+border-radius: 100%;
+color:hsl(0,0%,100%);
+}
+.white{
+display:flex;
+flex-direction:row;
+width:600px;
+height:400px;
+background-color:white;
+border-radius:30px;
+box-shadow: 5px 10px 10px 5px #dbdff4;;
+}
+.reaction{
+display:flex;
+flex-direction:row;
+gap:60px;
+background-color:grey;
+margin-bottom:20px;
+color:hsl(0, 100%, 67%);
+background-color:rgb(243, 226, 226);
+border-radius:7px;
+padding: 5px;
+font-weight: 500;
+}
+.memory{
+display:flex;
+flex-direction:row;
+gap:50px;
+background-color:grey;
+margin-bottom:20px;
+background-color:rgb(228, 213, 183);
+border-radius:7px;
+color:hsl(39, 100%, 56%);
+padding: 5px;
+font-weight: 500;
+
+}
+.display{
+    display:flex;
+    flex-direction: row;
+    gap:2px;
+}
+.verbal{
+display:flex;
+flex-direction:row;
+gap:80px;
+margin-bottom:20px;
+background-color:hsl(165, 44%, 93%);
+color: hsl(166, 100%, 37%);
+border-radius:7px;
+padding: 5px;
+font-weight: 500;
+
+}
+.visual{
+display:flex;
+flex-direction:row;
+gap:80px;
+margin-bottom:20px;
+background-color:rgb(186, 189, 216);
+color: hsl(234, 85%, 45%);
+border-radius:7px;
+padding: 5px;
+font-weight: 500;
+}
+.bold
+{
+    color:hsl(224, 30%, 27%);
+    font-weight: 500;
+}
+.grey{
+    color:grey;
+    font-weight: 500;
+}
+button[type=submit]{
+    width:100%;
+    border-radius:15px;
+    padding: 7px;
+    background-color: hsl(224, 30%, 27%);
+    border:none;
+    color:hsl(0, 0%, 100%);
+    margin-top: 15px;
+}
+ 
